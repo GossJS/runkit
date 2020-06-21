@@ -1,0 +1,6 @@
+{
+  "name":"runkit",
+  "scripts": {
+    "start":"node index.js"
+  }
+}
