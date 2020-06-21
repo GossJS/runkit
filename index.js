@@ -6,4 +6,4 @@ app
   .set({"Content-Type":"application/json; charset=utf-8"})
   .end('{"Hello":"world!"}')
 )
-.listen(4321);
+.listen(process.env.PORT); // !!! Heroku
